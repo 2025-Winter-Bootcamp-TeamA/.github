@@ -32,11 +32,11 @@
 
 # 📣 Introduction
 
-### 🖥️ DevRoad
+## 🖥️ DevRoad
 
 > URL : [devroad.cloud](https://devroad.cloud)
 
-### 🔎 DevRoad Medium 
+## 🔎 DevRoad Medium 
 
 > URL : [DevRoad Medium](https://medium.com/@heeyoung054/devroad-%EC%B1%84%EC%9A%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80-ai%EB%A1%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%BB%A4%EB%A6%AC%EC%96%B4-%EA%B2%B0%EC%A0%95%EC%9D%84-%EB%8F%95%EB%8A%94-%EC%84%9C%EB%B9%84%EC%8A%A4-2bdf43fb5003?postPublishedType=repub)
 
@@ -45,19 +45,19 @@
 <hr>
 ### 주요 기능
 
-#### 📈 **기술 트렌드 확인**
+### 📈 **기술 트렌드 확인**
 * 채용 공고 및 게시글에서 기술 스택을 추출해 시계열 그래프로 시각화
 
-#### 🧾 **채용 공고 확인**
+### 🧾 **채용 공고 확인**
 * 현재 진행중인 채용 공고를 확인할 수 있고 채용 공고 사이트로 이동
 
-#### 🧭 **채용 지도**
+### 🧭 **채용 지도**
 * 지도와 함께 채용 공고를 올린 회사의 위치를 확인
 
-#### 📄 **면접 대비**
+### 📄 **면접 대비**
 * 이력서를 업로드해 Ollama와 Gemma3를 활용한 이력서 분석 및 Gemini를 통한 면접 질문 생성
 
-#### 😀 **마이 페이지**
+### 😀 **마이 페이지**
 * 자신의 이력서를 관리할 수 있으며 즐겨찾기를 확인
 
 <br><br>
@@ -65,7 +65,7 @@
 
 # Product
 
-### Onboarding
+## Onboarding
 
 > DevRoad의 서비스 흐름을 보여줍니다.
 
@@ -73,7 +73,7 @@
 
 
 
-### Dashboard
+## Dashboard
 
 > 언급량이 높은 기술과 추천 채용 공고 및 즐겨찾기된 기업의 채용 공고를 확인할 수 있습니다.
 
@@ -81,14 +81,14 @@
 
 
 
-### Job-Posting Map
+## Job-Posting Map
 
 > 채용 공고를 지도에서 위치와 함께 확인할 수 있습니다.
 
 <img src="./images/jobm.gif" width="1000" height="541" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 
 
-### Prepare Interview
+## Prepare Interview
 
 > 이력서를 업로드하고, 채용 공고별 분석 내용을 확인할 수 있습니다.
 
@@ -96,7 +96,7 @@
 
 
 
-### Login & Logout
+## Login & Logout
 
 > Google OAuth와 JWT를 활용해 소셜 로그인을 수행합니다.
 
@@ -104,7 +104,7 @@
 <img src="./images/Logout.png" width="1000" height="541" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 
-### MyPage
+## MyPage
 
 > 업로드한 이력서와 기업 및 기술에 대한 즐겨찾기를 조회할 수 있습니다.
 
@@ -260,19 +260,19 @@
 
 # 🚀 How to start
 
-### 1. 프로젝트 클론
+## 1. 프로젝트 클론
 ```bash
 git clone https://github.com/2025-Winter-Bootcamp-TeamA/backend.git
 git clone https://github.com/2025-Winter-Bootcamp-TeamA/frontend.git
 ```
 
-### 2. Backend 설정 및 실행
+## 2. Backend 설정 및 실행
 
 ```bash
 
 ```
 
-### 3. Frontend 설정 및 실행
+## 3. Frontend 설정 및 실행
 
 ```bash
 npm install
