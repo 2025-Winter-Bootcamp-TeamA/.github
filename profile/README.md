@@ -4,12 +4,11 @@
 
 ### **채용 공고 및 이력서 기반 트렌드 분석 서비스** 
 <br><br>
-
+![DevRoad](./images/DevRoad-title.png)
 
 <br><br>
 💡 편하게 한눈에 IT 트렌드를 확인하세요
 <br><br>
-
 </div>
 
 
@@ -109,14 +108,17 @@
 
 > 업로드한 이력서와 기업 및 기술에 대한 즐겨찾기를 조회할 수 있습니다.
 
-<img src="마이페이지" width="1000" height="541" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<img src="./images/myp.gif" width="1000" height="541" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 
 <br><br>
 
 # 📗 API
 
-![API Documentation](../api-docs.png)
+![API Documentation](./images/swagger-users.png)
+![API Documentation](./images/swagger-trends.png)
+![API Documentation](./images/swagger-job.png)
+![API Documentation](./images/swagger-resume.png)
 
 <a name="-system-architecture"></a>
 
