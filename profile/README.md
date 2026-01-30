@@ -280,7 +280,7 @@ docker compose -f docker-compose.dev.yml exec -T backend python manage.py import
 docker compose -f docker-compose.dev.yml exec -T backend python manage.py import_tech_relationships
 # 채용공고 크롤링, --count N
 docker compose -f docker-compose.dev.yml exec -T backend python manage.py run_crawling
-# stackover flow의 Posts.xml사용
+# Stack Overflow의 Posts.xml사용
 docker compose -f docker-compose.dev.yml exec backend python manage.py analyze_stackoverflow \
   --posts ./Posts.xml \
   --stacks ./tech_stacks_merged_final.csv \
