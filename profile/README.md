@@ -272,10 +272,24 @@ git clone https://github.com/2025-Winter-Bootcamp-TeamA/frontend.git
 ## 2. Backend 설정 및 실행
 
 ```bash
+# 기술 목록 삽입
 docker compose -f docker-compose.dev.yml exec -T backend python manage.py import_tech_stacks
+# 가술 카테고리 설정
 docker compose -f docker-compose.dev.yml exec -T backend python manage.py import_categories
+# 기술 관계 설정
 docker compose -f docker-compose.dev.yml exec -T backend python manage.py import_tech_relationships
-docker compose -f docker-compose.dev.yml exec -T backend python manage.py run_crawling --count 10000
+# 채용공고 크롤링, --count N
+docker compose -f docker-compose.dev.yml exec -T backend python manage.py run_crawling
+# stackover flow의 Posts.xml사용
+docker compose -f docker-compose.dev.yml exec backend python manage.py analyze_stackoverflow \
+  --posts ./Posts.xml \
+  --stacks ./tech_stacks_merged_final.csv \
+  --out ./out.csv \
+  --progress 10000 \
+  --with-top-posts \
+  --detail-tech git \
+  --topn 10 \
+  --save-db
 ```
 
 ## 3. Frontend 설정 및 실행
